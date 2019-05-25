@@ -6,6 +6,14 @@
       <li v-for="item in namelist" :key="item.id">{{ item.id }} --- {{ item.name }}</li>
       <!-- <li>lala</li> -->
     </ul>
+
+    <!-- 使用mint-ui组件 -->
+    <mt-button type="primary">mint-ui按钮</mt-button>
+
+    <!-- 使用mui -->
+    <button type="button" class="mui-btn mui-btn-warning">
+      mui按钮
+    </button>
   </div>
 </template>
 
